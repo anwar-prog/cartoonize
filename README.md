@@ -35,3 +35,27 @@ A Python-based application that converts images and videos into cartoon-style vi
 git clone https://github.com/anwar-prog/cartoonize.git
 cd cartoonize
 
+### 📂 Project Structure
+
+.
+├── app.py                 # Main Flask application
+├── gcloud_utils.py        # Google Cloud Storage utilities
+├── video_api.py           # API integration for video processing
+├── templates/             # HTML templates for the web interface
+├── static/                # Static assets (e.g., images, videos, JS)
+│   ├── cartoonized_images/
+│   ├── sample_images/
+│   ├── uploaded_videos/
+│   └── upload.js
+├── white_box_cartoonizer/ # Pre-trained model and scripts
+├── config.yaml            # Application configuration
+├── Dockerfile             # Docker configuration
+├── requirements.txt       # Python dependencies
+├── LICENSE                # License information
+├── README.md              # Project documentation
+└── .gitignore             # Git ignore rules
+
+### 🌐 Demo
+Upload an image or video via the web interface.
+The cartoonized result will be processed and made available for download.
+
