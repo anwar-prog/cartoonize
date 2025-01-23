@@ -23,25 +23,6 @@ A Python-based application that converts images and videos into cartoon-style vi
 
 ---
 
-## 🚀 Installation and Setup
-
-### Prerequisites
-1. Python 3.6 or later installed on your system.
-2. A Google Cloud account for cloud storage (optional).
-3. Docker (optional for containerized deployment).
-
-### 🌐 Demo
-Upload an image or video via the web interface.
-The cartoonized result will be processed and made available for download.
-
-
-### Clone the Repository
-```bash
-git clone https://github.com/anwar-prog/cartoonize.git
-cd cartoonize
-```
----
-
 ### 📂 Project Structure
 
 ```
@@ -78,4 +59,40 @@ cd cartoonize
 
 └── .gitignore               # Git ignore rules
 ```
+
+---
+
+## 🚀 Installation and Setup
+
+### Prerequisites
+1. Python 3.6 or later installed on your system.
+2. A Google Cloud account for cloud storage (optional).
+3. Docker (optional for containerized deployment).
+
+### 🌐 Demo
+Upload an image or video via the web interface.
+The cartoonized result will be processed and made available for download.
+
+
+### Clone the Repository
+```bash
+git clone https://github.com/anwar-prog/cartoonize.git
+cd cartoonize
+```
+
+### 🌐 Demo
+
+1. Upload an image or video via the web interface.
+2. The cartoonized result will be processed and made available for download.
+
+---
+
+## 💡 Acknowledgements
+
+- **White-Box Cartoonizer**: For the pre-trained models and inspiration.
+- **Google Cloud**: For cloud storage integration.
+- **OpenCV**: For image processing utilities.
+- **TensorFlow**: For machine learning support.
+
+---
 
