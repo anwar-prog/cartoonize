@@ -1,5 +1,3 @@
-# cartoonize
-
 # Cartoon Maker
 
 A Python-based application that converts images and videos into cartoon-style visuals using a combination of **Machine Learning** and **image processing techniques**. This project is built with **Flask**, **OpenCV**, and **TensorFlow** and includes Google Cloud integration for handling storage and APIs.
