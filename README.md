@@ -36,3 +36,4 @@ A Python-based application that converts images and videos into cartoon-style vi
 ```bash
 git clone https://github.com/anwar-prog/cartoonize.git
 cd cartoonize
+
