@@ -30,6 +30,20 @@ A Python-based application that converts images and videos into cartoon-style vi
 2. A Google Cloud account for cloud storage (optional).
 3. Docker (optional for containerized deployment).
 
+### 🌐 Demo
+Upload an image or video via the web interface.
+The cartoonized result will be processed and made available for download.
+
+
+### Clone the Repository
+```bash
+git clone https://github.com/anwar-prog/cartoonize.git
+cd cartoonize
+```
+---
+
+### 📂 Project Structure
+
 ```
 .
 ├── app.py                   # Main Flask application
@@ -64,15 +78,4 @@ A Python-based application that converts images and videos into cartoon-style vi
 
 └── .gitignore               # Git ignore rules
 ```
-
-
-### 🌐 Demo
-Upload an image or video via the web interface.
-The cartoonized result will be processed and made available for download.
-
-
-### Clone the Repository
-```bash
-git clone https://github.com/anwar-prog/cartoonize.git
-cd cartoonize
 
